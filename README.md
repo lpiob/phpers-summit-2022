@@ -33,7 +33,7 @@ GUI/IDE do przeglądania i zarządzania zasobami Kubernetes.
 
 Oferuje szeroki zakres funkcjonalności, od przeglądania zasobów, analizę metryk Prometheus, aż po logowanie się na konkretne kontenery i nody.
 
-Do pobrania z https://k8slens.dev/. Aplikacja jest darmowa, płatne są tylko dodatkowe funkcjonalności zespołowe.
+Do pobrania z <https://k8slens.dev/>. Aplikacja jest darmowa, płatne są tylko dodatkowe funkcjonalności zespołowe.
 
 ### Helm
 
