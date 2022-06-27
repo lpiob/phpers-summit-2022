@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: summit
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        tier: frontend
+    spec:
+      containers:
+      - image: nginx:1.21
+        name: nginx
+        resources:
+          limits:
+            cpu: 512m
+        env:
+        - name: DB_NAME
+          value: phpers2022
